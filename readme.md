@@ -1,4 +1,4 @@
-# DeepID2025: THE CHALLENGE OF DETECTING SYNTHETIC MANIPULATIONS IN ID DOCUMENTS
+# DeepID2025: The Challenge Of Detecting Synthetic Manipulations In ID Documents
 
 <p align='center'>  
   <img src='imgs/title2.jpg' />
