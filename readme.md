@@ -209,6 +209,8 @@ Manipulations include face-swapping and text inpainting.
 
 ## Our Solution
 
+### Data analysis
+
 ## Acknowledgement
 
 
