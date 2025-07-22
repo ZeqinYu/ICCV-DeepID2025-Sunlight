@@ -209,7 +209,7 @@ Manipulations include face-swapping and text inpainting.
 
 ## Our Solution
 
-### Data analysis
+### Data analysis1
 
 ## Acknowledgement
 
