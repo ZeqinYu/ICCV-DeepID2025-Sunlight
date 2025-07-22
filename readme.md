@@ -1,4 +1,4 @@
-# DeepID: Digital Manipulation Detection in ID Documents
+# DeepID2025: THE CHALLENGE OF DETECTING SYNTHETIC MANIPULATIONS IN ID DOCUMENTS
 
 <p align='center'>  
   <img src='imgs/title2.jpg' />
