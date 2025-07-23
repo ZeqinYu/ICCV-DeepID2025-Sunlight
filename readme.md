@@ -5,6 +5,19 @@
 </p>
 
 Both Tracks’ 1st Place Solution for [**The Challenge of Detecting Synthetic Manipulations in ID Documents (Detection  Track & Localization Track)**](https://deepid-iccv.github.io/) by **"Sunlight"** team.
+Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**, **Tianye**, under the supervision of **Prof. Jiangqun Ni**.
+
+### Authors
+
+**Sunlight Team**, Sun Yat-sen University  
+1. [**Zeqin Yu**](https://zeqinyu.github.io/aboutme/)<sup>1</sup>  
+2. **Tianye**<sup>2</sup>  
+3. **Prof. Jiangqun Ni**<sup>2,\*</sup>
+
+<sup>1</sup> *School of Computer Science and Engineering, Sun Yat-sen University*  
+<sup>2</sup> *School of Cyber Science and Engineering, Sun Yat-sen University*  
+<sup>\*</sup> *Corresponding author*
+
 
 ## Table of Contents
 
