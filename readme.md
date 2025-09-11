@@ -23,6 +23,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, **
   - [TrainSets](#TrainSets)
   - [TestSets](#TestSets)
   - [Examples](#Examples)
+- [Competition Results](#competition-results)
 - [Our Solution](#our-solution)
   - [Preliminary Analysis](#preliminary-analysis)
   - [Proposed Pipeline](#proposed-pipeline)
@@ -274,5 +275,6 @@ Where:
 
 - `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
 - `F1_private` = F1-score on the private real document test set   -->
+
 
 
