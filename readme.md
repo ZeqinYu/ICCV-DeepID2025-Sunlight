@@ -218,10 +218,6 @@ Manipulations include face-swapping and text inpainting.
 
 ---
 
-## Competition Results
-
-| <img src="imgs/tab1.jpg" height="150px"/> | <img src="imgs/tab2.jpg" height="150px"/> | <img src="imgs/tab3.jpg" height="150px"/> |
-|----------|----------|----------|
 
 ## Our Solution
 We proposed a two-stage training pipeline based on the **[Reinforced Multi-teacher Knowledge Distillation (Re-MTKD)](https://ojs.aaai.org/index.php/AAAI/article/view/32085)**  framework.
@@ -300,6 +296,7 @@ Where:
 
 - `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
 - `F1_private` = F1-score on the private real document test set   -->
+
 
 
 
