@@ -257,22 +257,25 @@ The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for 
 
 <p align="center">
   <em> Table 2. The teams whose submissions scored above the TruFor baseline.</em>
-  <img src="imgs/tab1.jpg" alt="frame" width="500"/>
   <br/>
+  <img src="imgs/tab1.jpg" alt="frame" width="500"/>
+  
 
 </p>
 
 <p align="center">
   <em> Table 3. Detection performance of winning teams in DeepID.</em>
+   <br/>
   <img src="imgs/tab2.jpg" alt="frame" width="500"/>
-  <br/>
+ 
 
 </p>
 
 <p align="center">
   <em> Table 4. Localization performance of winning teams in DeepID.</em>
-  <img src="imgs/tab3.jpg" alt="frame" width="500"/>
   <br/>
+  <img src="imgs/tab3.jpg" alt="frame" width="500"/>
+  
 
 </p>
 
@@ -297,6 +300,7 @@ Where:
 
 - `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
 - `F1_private` = F1-score on the private real document test set   -->
+
 
 
 
