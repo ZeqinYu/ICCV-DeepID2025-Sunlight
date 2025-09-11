@@ -24,6 +24,8 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, **
   - [TestSets](#TestSets)
   - [Examples](#Examples)
 - [Our Solution](#our-solution)
+  - [Preliminary Analysis](#preliminary-analysis)
+  - [Proposed Pipeline](#proposed-pipeline)
 - [Acknowledgement](#acknowledgement)
   
 ## Overview 
@@ -215,11 +217,35 @@ Manipulations include face-swapping and text inpainting.
 ---
 
 ## Our Solution
+We proposed a two-stage training pipeline based on the **[Reinforced Multi-teacher Knowledge Distillation (Re-MTKD)](https://ojs.aaai.org/index.php/AAAI/article/view/32085)**  framework.
 
-### Data analysis
+<p align="center">
+  <img src="imgs/frame.jpg" alt="frame" width="800"/>
+  <br/>
+  <em>Figure 1. Overview of our two-stage training pipeline.</em>
+</p>
 
+
+### Preliminary Analysis
+We conducted an initial analysis to understand the domain-specific characteristics of the ID document images in the challenge. We observed that real and tampered images differ in JPEG compression quality (QF95 vs. QF75), and that the images feature structured layouts, clean backgrounds, and concentrated text regions. Such properties pose challenges for general-purpose image forgery detection and localization (IFDL) models, particularly in modeling compression artifacts and document-specific textures.
+
+We also evaluated the zero-shot performance of several state-of-the-art IFDL methods, including **[MVSS-Net](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Image_Manipulation_Detection_by_Multi-View_Multi-Scale_Supervision_ICCV_2021_paper.pdf)**,**[TruFor](https://openaccess.thecvf.com/content/CVPR2023/papers/Guillaro_TruFor_Leveraging_All-Round_Clues_for_Trustworthy_Image_Forgery_Detection_and_CVPR_2023_paper.pdf)**, and our own **[Re-MTKD](https://ojs.aaai.org/index.php/AAAI/article/view/32085)** . As shown in Tab.4, Re-MTKD achieved the highest F1 scores in both detection and localization despite being trained on fewer samples, indicating strong cross-domain generalization.
+
+<div align="center">
+
+| Method    | Data  | Detection | Localization | Average |
+|:----------:|:-----:|:---------:|:------------:|:-------:|
+| MVSS-Net  | 13k   | 0.533     | 0.187        | 0.360   |
+| TruFor    | 876k  | 0.746     | 0.626        | 0.686   |
+| Re-MTKD   | 60k   | 0.758     | 0.637        | 0.697   |
+
+</div>
+
+### Proposed Pipeline
+In Stage 1 (left part of Fig. 1), we reused the Cue-Net student model pretrained using the Re-MTKD framework, which has shown strong generalization across various natural image forgery datasets. We trained teacher models, each focusing on a specific manipulation type (e.g., splicing, copy-move, inpainting), on datasets corresponding to each manipulation type, such as **[CASIAv2](https://ieeexplore.ieee.org/abstract/document/6625374)**  for copy-move, **[FantasticReality](https://papers.nips.cc/paper_files/paper/2019/file/98dce83da57b0395e163467c9dae521b-Paper.pdf)** for splicing, and    **[GC](https://ieeexplore.ieee.org/document/9410590)** for inpainting. We optimized the student model using a combination of soft distillation loss Lsoft and hard supervision loss Lhard, which combines segmentation, classification, and edge-aware losses to enhance detection accuracy and localization precision.
+
+In Stage 2 (right part of Fig. 1), we fine-tuned the pretrained model on the FantasyID dataset to capture ID-specific characteristics such as structured layouts, subtle tampering traces, and compression-induced artifacts. We conducted training on 512×512 cropped patches with randomized JPEG compression (QF in [70, 100]) applied to simulate the diverse compression artifacts observed in the provided FantasyID dataset. During fine-tuning, we only optimized the hard supervision loss Lhard to ensure stable domain adaptation in the absence of the teacher’s guidance. At inference, we used whole-image processing to avoid resizing artifacts. This approach, when trained for 16 epochs, achieved first place in the detection track, and when trained for 31 epochs, first place in the localization track.
 ## Acknowledgement
-
 
 
 <!-- ## 📊 Final Scoring (Aggregate F1 Score)
@@ -236,3 +262,4 @@ Where:
 
 - `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
 - `F1_private` = F1-score on the private real document test set   -->
+
