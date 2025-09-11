@@ -254,6 +254,7 @@ In Stage 2 (right part of Fig. 1), we fine-tuned the pretrained model on the Fan
 
 ## Competition Results
 The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for the detection track and in Tab. 4 for the localization track. The columns t₍f₎ and F1₍f₎ denote the inference time and F1 score on the FantasyID set, while t₍p₎ and F1₍p₎ correspond to the results on the private set.
+
 <p align="center">
   <em> Table 2. The teams whose submissions scored above the TruFor baseline.</em>
   <img src="imgs/tab1.jpg" alt="frame" width="500"/>
@@ -296,6 +297,7 @@ Where:
 
 - `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
 - `F1_private` = F1-score on the private real document test set   -->
+
 
 
 
