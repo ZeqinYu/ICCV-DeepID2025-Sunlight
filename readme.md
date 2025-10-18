@@ -12,7 +12,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 <sup>2</sup> *School of Cyber Science and Engineering, Sun Yat-sen University*  
 <sup>3</sup> *Peng Cheng Laboratory*
 
-<details open><summary>💡 We also have other Image Forensics projects that may interest you ✨</summary><p>
+<details open><summary>✨ We also have other Image Forensics projects that may interest you </summary><p>
 
 > [**Learning to Locate the Text Forgery in Smartphone Screenshots [ICASSP 2023]**](https://ieeexplore.ieee.org/abstract/document/10095070) <br>
 > Zeqin Yu, Bin Li, Yuzhen Lin, Jinhua Zeng, Jishen Zeng <br>
@@ -190,6 +190,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
 
 
 
