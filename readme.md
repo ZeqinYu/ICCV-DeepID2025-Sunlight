@@ -32,7 +32,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 
 ## Our Solution
 
-### Preliminary Analysis
+### 🔍 Preliminary Analysis
 **Analysis1:** We conducted an initial analysis to understand the domain-specific characteristics of the ID document images in the challenge. We observed that real and tampered images differ in JPEG compression quality (QF95 vs. QF75), and that the images feature structured layouts, clean backgrounds, and concentrated text regions. Such properties pose challenges for general-purpose image forgery detection and localization (IFDL) models, particularly in modeling compression artifacts and document-specific textures.
 
 **Analysis2:** We also evaluated the zero-shot performance of several state-of-the-art IFDL methods, including MVSS-Net, TruFor (official baseline), and our own **[Re-MTKD](https://ojs.aaai.org/index.php/AAAI/article/view/32085)** . As shown in Tab.1, Re-MTKD achieved the highest F1 scores in both detection and localization despite being trained on fewer samples, indicating strong cross-domain generalization.
@@ -50,7 +50,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 
 </div>
 
-### Proposed Pipeline
+### 🧩 Proposed Pipeline
 We proposed a two-stage training pipeline based on the **[Reinforced Multi-teacher Knowledge Distillation (Re-MTKD)](https://ojs.aaai.org/index.php/AAAI/article/view/32085)**  framework.
 
 <p align="center">
@@ -63,7 +63,7 @@ In Stage 1 (left part of Fig. 1), we reused the Cue-Net student model pretrained
 
 In Stage 2 (right part of Fig. 1), we fine-tuned the pretrained model on the FantasyID dataset to capture ID-specific characteristics such as structured layouts, subtle tampering traces, and compression-induced artifacts. We conducted training on 512×512 cropped patches with randomized JPEG compression (QF in [70, 100]) applied to simulate the diverse compression artifacts observed in the provided FantasyID dataset. During fine-tuning, we only optimized the hard supervision loss Lhard to ensure stable domain adaptation in the absence of the teacher’s guidance. At inference, we used whole-image processing to avoid resizing artifacts. This approach, when trained for 16 epochs, achieved first place in the detection track, and when trained for 31 epochs, first place in the localization track.
 
-### Testing Our Pipeline
+### 🧪 Testing Our Pipeline
 
 Assuming you are running this code on computer with nvidia GPU and docker, you can run [Re-MTKD](https://github.com/ZeqinYu/Re-MTKD) through the API. Start the model API with:
 
@@ -108,7 +108,7 @@ PASSED
 **Note: The pretrained weights can be downloaded from [Google Drive]() or [Baidu Pan](), and place the weights into "/yourpath/baseline-docker-maincnet/src/Cue_Net/ck".**
 
 
-## Competition Results
+## 🏆 Competition Results
 The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for the detection track and in Tab. 4 for the localization track. The columns t₍f₎ and F1₍f₎ denote the inference time and F1 score on the FantasyID set, while t₍p₎ and F1₍p₎ correspond to the results on the private set.
 
 <p align="center">
@@ -137,7 +137,7 @@ The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for 
 
 Our team (**Sunlight**) achieves the fastest inference speed while performing both detection and localization. It ranks first on FantasyID and remains highly competitive on the private set. Overall, **Sunlight** secures the top position in the aggregated score across both tracks, demonstrating the superiority of our approach.
 
-## Additional Competitions and Resources on Text Image Forensics
+## 📚 Additional Competitions and Resources on Text Image Forensics
 This list provides an overview of major competitions and resources related to **Text Image Forgery Detection and Localization**, based on our experiences of contributing dataset support to the [Real-world Image Forgery Localization Challenge (2022)](https://tianchi.aliyun.com/competition/entrance/531945/introduction) and winning First Place in both the Detection and Localization tracks of the [ICCV 2025 DeepID Challenge](https://deepid-iccv.github.io/) (Team: Sunlight).  
 Contributions are welcome! If you have additional competitions or resources related to text image forgery, feel free to reach out: 📧 kimjyu@foxmail.com.
 | Year | Competition | Organizer | Representative Solution | Data (Real/Fake) | Notes & Download |
@@ -152,7 +152,7 @@ Contributions are welcome! If you have additional competitions or resources rela
 | 2025 | [ICCV 2025: The Challenge of Detecting Synthetic Manipulations in ID Documents (DeepID 2025) - Detection Track](https://deepid-iccv.github.io/) | Idiap Research Institute, PXL Vision (Switzerland)| [First Place (Sun Yat-sen University)](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight), <br> [Official Challenge Report](https://publications.idiap.ch/attachments/papers/2025/Korshunov_ICCV_2025.pdf) | Train: 633/1,266 <br> Test: 300/1,085 |  [Download Link](https://zenodo.org/records/17063366) <br> (ID cards)  |
 | 2025 | [ICCV 2025: The Challenge of Detecting Synthetic Manipulations in ID Documents (DeepID 2025) - Localization Track](https://deepid-iccv.github.io/) | Idiap Research Institute, PXL Vision (Switzerland)| [First Place (Sun Yat-sen University)](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight), <br> [Official Challenge Report](https://publications.idiap.ch/attachments/papers/2025/Korshunov_ICCV_2025.pdf) | Train: 633/1,266 <br> Test: 300/1,085 | [Download Link](https://zenodo.org/records/17063366) <br> (ID cards) |
 
-## Citation
+## ✍️ Citation
 ```bibtex
 @inproceedings{yu2025reinforced,
   title={Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization},
@@ -163,6 +163,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
 
 
 
