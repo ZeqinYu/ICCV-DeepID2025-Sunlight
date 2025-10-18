@@ -19,7 +19,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, **
   - [Preliminary Analysis](#preliminary-analysis)
   - [Proposed Pipeline](#proposed-pipeline)
 - [Competition Results](#competition-results)
-- [Additional Competitions and Resources on Text Image Forensic](#competition-results)
+- [Additional Competitions and Resources on Text Image Forensics](#additional-competitions-and-resources-on-text-image-forensics)
 - [Citation](#citation)
   
 
@@ -86,7 +86,7 @@ The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for 
 
 Our team (**Sunlight**) achieves the fastest inference speed while performing both detection and localization. It ranks first on FantasyID and remains highly competitive on the private set. Overall, **Sunlight** secures the top position in the aggregated score across both tracks, demonstrating the superiority of our approach.
 
-## Additional Competitions and Resources on Text Image Forensic
+## Additional Competitions and Resources on Text Image Forensics
 
 ## Citation
 ```bibtex
@@ -99,6 +99,7 @@ Our team (**Sunlight**) achieves the fastest inference speed while performing bo
   pages={995--1003},
   year={2025}
 }
+
 
 
 
