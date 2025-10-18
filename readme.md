@@ -156,7 +156,7 @@ The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for 
 Our team (**Sunlight**) achieves the fastest inference speed while performing both detection and localization. It ranks first on FantasyID and remains highly competitive on the private set. Overall, **Sunlight** secures the top position in the aggregated score across both tracks, demonstrating the superiority of our approach.
 
 ## 📚 Additional Competitions and Resources on Text Image Forensics
-This list provides an overview of major competitions and resources related to **Text Image Forgery Detection and Localization**, based on our experiences of contributing dataset support to the [Real-world Image Forgery Localization Challenge (2022)](https://tianchi.aliyun.com/competition/entrance/531945/introduction) and winning First Place in both the Detection and Localization tracks of the [ICCV 2025 DeepID Challenge](https://deepid-iccv.github.io/) (Team: Sunlight).  
+This list provides an overview of major competitions and resources related to **Text Image Forgery Detection and Localization**, based on our experiences of contributing [dataset](https://ieeexplore.ieee.org/abstract/document/10095070) support to the [Real-world Image Forgery Localization Challenge (2022)](https://tianchi.aliyun.com/competition/entrance/531945/introduction) and winning First Place in both the Detection and Localization tracks of the [ICCV 2025 DeepID Challenge](https://deepid-iccv.github.io/) (Team: Sunlight).  
 Contributions are welcome! If you have additional competitions or resources related to text image forgery, feel free to reach out: 📧 kimjyu@foxmail.com.
 | Year | Competition | Organizer | Representative Solution | Data (Real/Fake) | Notes & Download |
 | ---- | ----------- | --------- | ----------------------- | ---------------- | ----- |
@@ -189,4 +189,5 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
 
