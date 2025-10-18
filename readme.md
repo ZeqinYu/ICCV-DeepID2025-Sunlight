@@ -19,7 +19,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, **
   - [Preliminary Analysis](#preliminary-analysis)
   - [Proposed Pipeline](#proposed-pipeline)
 - [Competition Results](#competition-results)
-- [Acknowledgement](#acknowledgement)
+- [Citation](#citation)
   
 
 
@@ -86,7 +86,7 @@ The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for 
 Our team (**Sunlight**) achieves the fastest inference speed while performing both detection and localization. It ranks first on FantasyID and remains highly competitive on the private set. Overall, **Sunlight** secures the top position in the aggregated score across both tracks, demonstrating the superiority of our approach.
 
 
-## ✍️ Citation
+## Citation
 ```bibtex
 @inproceedings{yu2025reinforced,
   title={Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization},
@@ -97,3 +97,4 @@ Our team (**Sunlight**) achieves the fastest inference speed while performing bo
   pages={995--1003},
   year={2025}
 }
+
