@@ -1,4 +1,4 @@
-#🏆 DeepID 2025: The Challenge Of Detecting Synthetic Manipulations In ID Documents
+# 🏆 DeepID 2025: The Challenge Of Detecting Synthetic Manipulations In ID Documents
 
 <p align='center'>  
   <img src='imgs/title2.jpg' />
@@ -163,5 +163,6 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
 
 
