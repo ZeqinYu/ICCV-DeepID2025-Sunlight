@@ -139,7 +139,7 @@ Our team (**Sunlight**) achieves the fastest inference speed while performing bo
 
 ## Additional Competitions and Resources on Text Image Forensics
 This list provides an overview of major competitions and resources related to **Text Image Forgery Detection and Localization**, based on our experiences of contributing dataset support to the [Real-world Image Forgery Localization Challenge (2022)](https://tianchi.aliyun.com/competition/entrance/531945/introduction) and winning First Place in both the Detection and Localization tracks of the [ICCV 2025 DeepID Challenge](https://deepid-iccv.github.io/) (Team: Sunlight).  
-Contributions are welcome! If you have additional competitions or resources related to text image forgery, feel free to reach out: 📧 yuzq9@mail2.sysu.edu.cn.
+Contributions are welcome! If you have additional competitions or resources related to text image forgery, feel free to reach out: 📧 kimjyu@foxmail.com.
 | Year | Competition | Organizer | Representative Solution | Data (Real/Fake) | Notes & Download |
 | ---- | ----------- | --------- | ----------------------- | ---------------- | ----- |
 | 2018 | [ICPR 2018 Fraud Detection](http://findit.univ-lr.fr/) | University of La Rochelle (France) | [Official Challenge Report](https://ieeexplore.ieee.org/document/8545428) | -/180 | [Download Link](http://findit.univ-lr.fr/download-the-dataset/) <br> (Receipts )|
@@ -163,3 +163,4 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
