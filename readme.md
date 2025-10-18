@@ -97,15 +97,3 @@ Our team (**Sunlight**) achieves the fastest inference speed while performing bo
   pages={995--1003},
   year={2025}
 }
-
-
-
-
-
-
-
-
-
-
-
-
