@@ -33,7 +33,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 ## Our Solution
 
 ### 🔍 Preliminary Analysis
-*A more detailed background analysis can be found in [Background.md](./Background.md).*
+*A more detailed background analysis can be found in [Background](./Background.md).*
 
 **Analysis1:** We conducted an initial analysis to understand the domain-specific characteristics of the ID document images in the challenge. We observed that real and tampered images differ in JPEG compression quality (QF95 vs. QF75), and that the images feature structured layouts, clean backgrounds, and concentrated text regions. Such properties pose challenges for general-purpose image forgery detection and localization (IFDL) models, particularly in modeling compression artifacts and document-specific textures.
 
@@ -165,6 +165,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
 
 
 
