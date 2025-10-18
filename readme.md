@@ -12,7 +12,28 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 <sup>2</sup> *School of Cyber Science and Engineering, Sun Yat-sen University*  
 <sup>3</sup> *Peng Cheng Laboratory*
 
-## News
+<details open><summary>💡 We also have other Text Image Forensics projects that may interest you ✨</summary><p>
+
+> [**STFL-Net: Learning to Locate the Text Forgery in Smartphone Screenshots [ICASSP 2023]**](https://ieeexplore.ieee.org/abstract/document/10095070) <br>
+> Zeqin Yu, Bin Li, Yuzhen Lin, Jinhua Zeng, Jishen Zeng <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/STFL-Net)  [![github](https://img.shields.io/github/stars/ZeqinYu/STFL-Net.svg?style=social)](https://github.com/ZeqinYu/STFL-Net) [![IEEE](https://img.shields.io/badge/IEEE-10095070-blue.svg?logo=ieee)](https://ieeexplore.ieee.org/abstract/document/10095070) <br>
+
+> [**DiffForensics: Leveraging Diffusion Prior for Image Forgery Detection and Localization [CVPR 2024]**](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_DiffForensics_Leveraging_Diffusion_Prior_for_Image_Forgery_Detection_and_Localization_CVPR_2024_paper.html) <br>
+> Zeqin Yu, Jiangqun Ni, Yuzhen Lin, Haoyi Deng, Bin Li <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/DiffForensics)  [![github](https://img.shields.io/github/stars/ZeqinYu/DiffForensics.svg?style=social)](https://github.com/ZeqinYu/DiffForensics) [![CVPR](https://img.shields.io/badge/CVPR-2024-blue.svg?logo=ieee)](https://openaccess.thecvf.com/CVPR2024) <br>
+
+> [**Re-MTKD: Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization [AAAI 2025 Oral]**](https://ojs.aaai.org/index.php/AAAI/article/view/32085) <br>
+> Zeqin Yu, Jiangqun Ni, Jian Zhang, Haoyi Deng, Yuzhen Lin <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/Re-MTKD)  [![github](https://img.shields.io/github/stars/ZeqinYu/Re-MTKD.svg?style=social)](https://github.com/ZeqinYu/Re-MTKD) [![AAAI](https://img.shields.io/badge/AAAI-2025-orange.svg?logo=aaai)](https://ojs.aaai.org/index.php/AAAI/article/view/32085) <br>
+
+> [**FSTS: Fourier Series-based Tampering Synthesis for Realistic Text Image Forgery Dataset Construction [Under Review]**]() <br>
+> Zeqin Yu, Jiangqun Ni, Yuzhen Lin, Bin Li <br>
+[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/FSTS) [![arXiv](https://img.shields.io/badge/arXiv-2506.xxxxx-b31b1b.svg?logo=arXiv)]() <br>
+
+</p></details>
+
+
+## 📰 News
 * **[2025.10.19]** 🔥🔥🔥 We were invited to **present our winning solution** at the **DeepID@ICCV 2025 Workshop**, held in conjunction with ICCV 2025 in Honolulu, Hawaii.
 * **[2025.10.18]** 🔥🔥 We have compiled a list of competitions and resources related to Text Image Forensics, [available here.](#additional-competitions-and-resources-on-text-image-forensics)
 * **[2025.10.18]** 🔥 We have open-sourced our **competition test code and pretrained weights** for the DeepID 2025 Challenge, [available here.](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight)
@@ -173,3 +194,4 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
