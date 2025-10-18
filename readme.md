@@ -27,8 +27,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/Re-MTKD)  [![github](https://img.shields.io/github/stars/ZeqinYu/Re-MTKD.svg?style=social)](https://github.com/ZeqinYu/Re-MTKD) [![AAAI](https://img.shields.io/badge/AAAI-2025-orange.svg?logo=aaai)](https://ojs.aaai.org/index.php/AAAI/article/view/32085) <br>
 
 > [**Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis [NeurIPS 2025]**] <br>
-> Zeqin Yu, Jiangqun Ni, Yuzhen Lin, Bin Li <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/FSTS) [![arXiv](https://img.shields.io/badge/arXiv-2506.xxxxx-b31b1b.svg?logo=arXiv)]() <br>
+> Zeqin Yu, Haotao Xie, Jian Zhang, Jiangqun Ni, Wenkang Su, Jiwu Huang <br>
 
 </p></details>
 
@@ -194,5 +193,6 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
 
 
