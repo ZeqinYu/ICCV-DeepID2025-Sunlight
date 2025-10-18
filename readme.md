@@ -86,7 +86,17 @@ The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for 
 Our team (**Sunlight**) achieves the fastest inference speed while performing both detection and localization. It ranks first on FantasyID and remains highly competitive on the private set. Overall, **Sunlight** secures the top position in the aggregated score across both tracks, demonstrating the superiority of our approach.
 
 
-## Acknowledgement
+## ✍️ Citation
+```bibtex
+@inproceedings{yu2025reinforced,
+  title={Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization},
+  author={Yu, Zeqin and Ni, Jiangqun and Zhang, Jian and Deng, Haoyi and Lin, Yuzhen},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={1},
+  pages={995--1003},
+  year={2025}
+}
 
 
 
@@ -104,6 +114,7 @@ Where:
 
 - `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
 - `F1_private` = F1-score on the private real document test set   -->
+
 
 
 
