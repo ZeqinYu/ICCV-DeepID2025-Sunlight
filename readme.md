@@ -105,7 +105,7 @@ PASSED
 ======================================================================= 5 passed in 5.47s ========================================================================
 ```
 
-**Note: The pretrained weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1OQkkBn-Wv9PTHaxhXs_JF1IdkIES64pm?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1hh6Rub60T7UXok5rqACffQ?pwd=gxu5), and place the weights into "/yourpath/baseline-docker-maincnet/src/Cue_Net/ck".**
+**Note: The pretrained weights can be downloaded from [Google Drive]() or [Baidu Pan](), and place the weights into "/yourpath/baseline-docker-maincnet/src/Cue_Net/ck".**
 
 
 ## Competition Results
@@ -163,6 +163,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
 
 
 
