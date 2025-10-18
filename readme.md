@@ -53,7 +53,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 </div>
 
 ### 🧩 Proposed Pipeline
-Based on the above analysis, we proposed a two-stage training pipeline based on the **[Reinforced Multi-teacher Knowledge Distillation (Re-MTKD)](https://ojs.aaai.org/index.php/AAAI/article/view/32085)**  framework.
+Based on the above analysis, we proposed a two-stage training pipeline based on the Reinforced Multi-teacher Knowledge Distillation (Re-MTKD) framework.
 
 <p align="center">
   <img src="imgs/frame.jpg" alt="frame" width="800"/>
@@ -173,6 +173,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
 
 
 
