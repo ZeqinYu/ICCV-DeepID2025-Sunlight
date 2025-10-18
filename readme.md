@@ -100,23 +100,6 @@ Our team (**Sunlight**) achieves the fastest inference speed while performing bo
 
 
 
-<!-- ## 📊 Final Scoring (Aggregate F1 Score)
-
-Final ranking uses a **weighted F1 score** formula:
-
-$$
-\text{Aggregate\_F1} = 0.3 \times \text{F1}_{\text{fantasy}} + 0.7 \times \text{F1}_{\text{private}}
-$$
-
-
-
-Where:
-
-- `F1_fantasy` = average of F1 on bonafide and attack samples from the Fantasy test set  
-- `F1_private` = F1-score on the private real document test set   -->
-
-
-
 
 
 
