@@ -22,6 +22,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, **
 - [Our Solution](#our-solution)
   - [Preliminary Analysis](#preliminary-analysis)
   - [Proposed Pipeline](#proposed-pipeline)
+  - [Testing Our Pipeline](#testing-our-pipeline)
 - [Competition Results](#competition-results)
 - [Additional Competitions and Resources on Text Image Forensics](#additional-competitions-and-resources-on-text-image-forensics)
 - [Citation](#citation)
@@ -60,6 +61,51 @@ We proposed a two-stage training pipeline based on the **[Reinforced Multi-teach
 In Stage 1 (left part of Fig. 1), we reused the Cue-Net student model pretrained using the Re-MTKD framework, which has shown strong generalization across various natural image forgery datasets. We trained teacher models, each focusing on a specific manipulation type (e.g., splicing, copy-move, inpainting), on datasets corresponding to each manipulation type, such as CASIAv2  for copy-move, FantasticReality for splicing, and GC for inpainting. We optimized the student model using a combination of soft distillation loss Lsoft and hard supervision loss Lhard, which combines segmentation, classification, and edge-aware losses to enhance detection accuracy and localization precision.
 
 In Stage 2 (right part of Fig. 1), we fine-tuned the pretrained model on the FantasyID dataset to capture ID-specific characteristics such as structured layouts, subtle tampering traces, and compression-induced artifacts. We conducted training on 512×512 cropped patches with randomized JPEG compression (QF in [70, 100]) applied to simulate the diverse compression artifacts observed in the provided FantasyID dataset. During fine-tuning, we only optimized the hard supervision loss Lhard to ensure stable domain adaptation in the absence of the teacher’s guidance. At inference, we used whole-image processing to avoid resizing artifacts. This approach, when trained for 16 epochs, achieved first place in the detection track, and when trained for 31 epochs, first place in the localization track.
+
+### Testing Our Pipeline
+
+Assuming you are running this code on computer with nvidia GPU and docker, you can run [Re-MTKD](https://github.com/ZeqinYu/Re-MTKD) through the API. Start the model API with:
+
+```bash
+docker compose up -d --build
+```
+
+and then you can test the API with:
+
+```bash
+pytest -sv test_api.py
+```
+
+You will need a Python environment with `pytest requests numpy pillow` installed to run the tests. This will be the output of the tests for Re-MTKD:
+
+```text
+===================================================================================== test session starts =====================================================================================
+platform linux -- Python 3.11.13, pytest-8.4.1, pluggy-1.6.0 -- /home/zyserver/anaconda3/envs/deepid/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /home/tianye/code/baseline-docker-maincnet
+collected 5 items                                                                                                                                                                                       
+
+test_api.py::test_server_is_running PASSED
+test_api.py::test_detect_endpoint 
+Pristine image pristine1.jpg score: 0.93
+Tampered image tampered1.png score: 0.00
+PASSED
+test_api.py::test_localize_endpoint 
+Pristine image pristine1.jpg white percentage: 100.00%
+Tampered image tampered1.png black percentage: 15.46%
+PASSED
+test_api.py::test_detect_and_localize_endpoint 
+Pristine image pristine1.jpg detect_and_localize score: 0.93, white percentage: 100.00%
+Tampered image tampered1.png detect_and_localize score: 0.00, black percentage: 15.46%
+PASSED
+test_api.py::test_api_compliance API compliance test passed!
+PASSED
+
+======================================================================= 5 passed in 5.47s ========================================================================
+```
+
+**Note: The pretrained weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1OQkkBn-Wv9PTHaxhXs_JF1IdkIES64pm?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1hh6Rub60T7UXok5rqACffQ?pwd=gxu5), and place the weights into "/yourpath/baseline-docker-maincnet/src/Cue_Net/ck".**
+
 
 ## Competition Results
 The F1 scores ranking the winning teams (see Tab. 2) are reported in Tab. 3 for the detection track and in Tab. 4 for the localization track. The columns t₍f₎ and F1₍f₎ denote the inference time and F1 score on the FantasyID set, while t₍p₎ and F1₍p₎ correspond to the results on the private set.
@@ -116,6 +162,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
 
 
 
