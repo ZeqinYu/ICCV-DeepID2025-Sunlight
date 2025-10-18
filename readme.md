@@ -13,8 +13,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, **
 <sup>3</sup> *Peng Cheng Laboratory*
 
 ## News
-* **[2025.10.18]** We have compiled a list of competitions and resources related to Text Image Forensics, available [here].(#additional-competitions-and-resources-on-text-image-forensics)
-* **[2025.04.23]** We have open-sourced the **MMTD-Set-34k** dataset on Hugging Face, and you can access it from [here](https://huggingface.co/datasets/zhipeixu/MMTD-Set-34k).
+* **[2025.10.18]** We have compiled a list of competitions and resources related to Text Image Forensics, available [here.](#additional-competitions-and-resources-on-text-image-forensics)
 
 
 
@@ -117,4 +116,5 @@ Contributions are welcome! If you have additional competitions or resources rela
   pages={995--1003},
   year={2025}
 }
+
 
