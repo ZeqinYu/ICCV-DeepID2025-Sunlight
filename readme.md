@@ -24,9 +24,8 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 
 > [**Re-MTKD: Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization [AAAI 2025 Oral]**](https://ojs.aaai.org/index.php/AAAI/article/view/32085) <br>
 > Zeqin Yu, Jiangqun Ni, Jian Zhang, Haoyi Deng, Yuzhen Lin <br>
-[![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/Re-MTKD)  [![github](https://img.shields.io/github/stars/ZeqinYu/Re-MTKD.svg?style=social)](https://github.com/ZeqinYu/Re-MTKD) [![AAAI](https://img.shields.io/badge/AAAI-2025-orange.svg?logo=aaai)](https://ojs.aaai.org/index.php/AAAI/article/view/32085) <br>
 
-> [**Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis [NeurIPS 2025]**] <br>
+> [**Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis [NeurIPS 2025]**](https://github.com/ZeqinYu/FSTS) <br>
 > Zeqin Yu, Haotao Xie, Jian Zhang, Jiangqun Ni, Wenkang Su, Jiwu Huang <br>
 
 </p></details>
@@ -193,6 +192,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
 
 
 
