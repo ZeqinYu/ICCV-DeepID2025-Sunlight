@@ -171,6 +171,18 @@ Contributions are welcome! If you have additional competitions or resources rela
 | 2025 | [ICCV 2025: The Challenge of Detecting Synthetic Manipulations in ID Documents (DeepID 2025) - Detection Track](https://deepid-iccv.github.io/) | Idiap Research Institute, PXL Vision (Switzerland)| [First Place (Sun Yat-sen University)](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight), <br> [Official Challenge Report](https://publications.idiap.ch/attachments/papers/2025/Korshunov_ICCV_2025.pdf) | Train: 633/1,266 <br> Test: 300/1,085 |  [Download Link](https://zenodo.org/records/17063366) <br> (ID cards)  |
 | 2025 | [ICCV 2025: The Challenge of Detecting Synthetic Manipulations in ID Documents (DeepID 2025) - Localization Track](https://deepid-iccv.github.io/) | Idiap Research Institute, PXL Vision (Switzerland)| [First Place (Sun Yat-sen University)](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight), <br> [Official Challenge Report](https://publications.idiap.ch/attachments/papers/2025/Korshunov_ICCV_2025.pdf) | Train: 633/1,266 <br> Test: 300/1,085 | [Download Link](https://zenodo.org/records/17063366) <br> (ID cards) |
 
+## License
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
+For inquiries or to obtain permission for commercial use, please contact Zeqin Yu (kimjyu@foxmai.com).
+
 ## ✍️ Citation
 ```bibtex
 @inproceedings{yu2025reinforced,
@@ -190,6 +202,7 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
 
 
 
