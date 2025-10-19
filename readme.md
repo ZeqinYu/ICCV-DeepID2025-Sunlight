@@ -124,7 +124,7 @@ PASSED
 ======================================================================= 5 passed in 5.47s ========================================================================
 ```
 
-**Note: The pretrained weights can be downloaded from [Google Drive]() or [Baidu Pan]( https://pan.baidu.com/s/1GhCtZWbWld9Zx7GGpJxcVQ) (42rp), and place the weights into `/yourpath/ICCV-DeepID2025-Sunlight/CueNet-docker/src/Cue_Net/checkpoint`. Then modify the `model_path` variable in `/yourpath/ICCV-DeepID2025-Sunlight/CueNet-docker/src/main.py` to test different models.**
+**Note: The pretrained weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1WOZdJY3VJ5SWpqPYTttGA36dRcU1OGSf) or [Baidu Pan]( https://pan.baidu.com/s/1GhCtZWbWld9Zx7GGpJxcVQ) (42rp), and place the weights into `/yourpath/ICCV-DeepID2025-Sunlight/CueNet-docker/src/Cue_Net/checkpoint`. Then modify the `model_path` variable in `/yourpath/ICCV-DeepID2025-Sunlight/CueNet-docker/src/main.py` to test different models.**
 
 
 ## 🏆 Competition Results
@@ -205,4 +205,5 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   volume={3},
   year={2025}
 }
+
 
