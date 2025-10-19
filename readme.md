@@ -58,7 +58,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 
 <div align="center">
 
-<em> Table 1. Zero-shot performance (F1 score) of existing IFDL methods on the FantasyID validation set.</em>
+<em> Table 1. Zero-shot performance (F1 score) of existing IFDL methods on the FantasyID dataset.</em>
 
 | Method    | Data  | Detection | Localization | Average |
 |:----------:|:-----:|:---------:|:------------:|:-------:|
@@ -190,3 +190,4 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
+
