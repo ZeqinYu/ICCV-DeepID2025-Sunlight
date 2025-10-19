@@ -189,5 +189,3 @@ Contributions are welcome! If you have additional competitions or resources rela
   volume={3},
   year={2025}
 }
-
-
