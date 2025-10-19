@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2025 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileContributor: Amir Mohammadi  <amir.mohammadi@idiap.ch>
+#
+# SPDX-License-Identifier: MIT
+
+services:
+  api:
+    build: .
+    platform: linux/amd64
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    networks:
+      - no-internet
+
+networks:
+  no-internet:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: 'false'

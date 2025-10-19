@@ -1,0 +1,49 @@
+# SPDX-FileCopyrightText: 2025 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileContributor: Amir Mohammadi  <amir.mohammadi@idiap.ch>
+#
+# SPDX-License-Identifier: MIT
+
+[workspace]
+authors = ["Amir Mohammadi <amir.mohammadi@idiap.ch>"]
+channels = ["conda-forge"]
+name = "baseline-docker"
+platforms = ["linux-64", "osx-arm64"]
+version = "0.1.0"
+
+[dependencies]
+python = "3.11.*"
+
+[feature.api.dependencies]
+fastapi = "*"
+python-multipart = "*"
+numpy = "*"
+pillow = "*"
+pytorch = "*"
+timm = "*"
+
+[feature.api.system-requirements]
+cuda = "12"
+
+[feature.api.tasks]
+api = "fastapi dev src/main.py"
+
+[feature.test.dependencies]
+pytest = "*"
+requests = ">=2.32.3,<3"
+numpy = ">=2.2.5,<3"
+pillow = ">=11.2.1,<12"
+reuse = ">=3.0.2,<4"
+click = ">=8.2.0,<9"
+pandas = ">=2.2.3,<3"
+loguru = ">=0.7.3,<0.8"
+tqdm = ">=4.67.1,<5"
+ipykernel = ">=6.29.5,<7"
+
+[feature.test.tasks]
+dcp-up = "docker compose up -d --build --remove-orphans"
+dcp-down = "docker compose down"
+test-api = "pytest -sv test_api.py"
+
+[environments]
+default = ["api"]
+test = ["test"]
