@@ -15,8 +15,9 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 ## 📰 News
 * **[2025.10.19]** 🔥🔥🔥 We were invited to **present our winning solution** at the **DeepID@ICCV 2025 Workshop**, held in conjunction with ICCV 2025 in Honolulu, Hawaii.
 * **[2025.10.18]** 🔥🔥 We have compiled a list of competitions and resources related to Text Image Forensics, [available here.](#additional-competitions-and-resources-on-text-image-forensics)
-* **[2025.10.18]** 🔥 We have open-sourced our **competition test code and pretrained weights** for the DeepID 2025 Challenge, [available here.](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight)
-* **[2025.09.11]** We updated our solution.
+* **[2025.10.18]** 🔥🔥 We have open-sourced our **competition test code and pretrained weights** for the DeepID 2025 Challenge, [available here.](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight)
+* **[2025.09.11]** 🔥 We updated our solution.
+* **[2025.07.15]** 🏆 Our team won 1st place in both the Detection and Localization tracks of the ICCV 2025 DeepID Challenge.
 
 <details open><summary>✨ We also have other Image Forensics projects that may interest you </summary><p>
 
