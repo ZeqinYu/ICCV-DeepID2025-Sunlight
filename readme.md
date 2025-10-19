@@ -184,7 +184,7 @@ This work is licensed under a
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
-For inquiries or to obtain permission for commercial use, please contact Zeqin Yu (kimjyu@foxmai.com).
+For inquiries or to obtain permission for commercial use, please contact Zeqin Yu (kimjyu@foxmail.com).
 
 ## ✍️ Citation
 ```bibtex
@@ -205,3 +205,4 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   volume={3},
   year={2025}
 }
+
