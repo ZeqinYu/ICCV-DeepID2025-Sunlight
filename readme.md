@@ -172,6 +172,7 @@ Contributions are welcome! If you have additional competitions or resources rela
 | 2025 | [ICCV 2025: The Challenge of Detecting Synthetic Manipulations in ID Documents (DeepID 2025) - Localization Track](https://deepid-iccv.github.io/) | Idiap Research Institute, PXL Vision (Switzerland)| [First Place (Sun Yat-sen University)](https://github.com/ZeqinYu/ICCV-DeepID2025-Sunlight), <br> [Official Challenge Report](https://publications.idiap.ch/attachments/papers/2025/Korshunov_ICCV_2025.pdf) | Train: 633/1,266 <br> Test: 300/1,085 | [Download Link](https://zenodo.org/records/17063366) <br> (ID cards) |
 
 ## Acknowledgement
+Thanks to [**Idiap Research Institute**](https://www.idiap.ch/en/) and [**PXL Vision**](https://www.pxl-vision.com/) for organizing the DeepID Challenge.
 
 ## License
 This work is licensed under a
@@ -204,4 +205,5 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   volume={3},
   year={2025}
 }
+
 
