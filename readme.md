@@ -205,4 +205,3 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   volume={3},
   year={2025}
 }
-
