@@ -200,9 +200,8 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
 
 @inproceedings{korshunov2025deepid,
   title={Deepid challenge of detecting synthetic manipulations in id documents},
-  author={Korshunov, Pavel and Vidit, Amir Mohammadi and Ecabert, Christophe and Shamoska, Nevena and Marcel, S{\'e}bastien and Yu, Zeqin and Tian, Ye and Ni, Jiangqun and Lazarevic, Lazar and Khizbullin, Renat and others},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV). IEEE},
-  volume={3},
+  author={Korshunov, Pavel and Vidit, Vidit and Mohammadi, Amir and Ecabert, Christophe and Shamoska, Nevena and Marcel, S{\'e}bastien and Yu, Zeqin and Tian, Ye and Ni, Jiangqun and Lazarevic, Lazar and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={510--519},
   year={2025}
 }
-
