@@ -22,6 +22,7 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 <details open><summary>✨ We also have other Image Forensics projects that may interest you </summary><p>
 
 > [**Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis [NeurIPS 2025]**](https://github.com/ZeqinYu/FSTS) <br>
+> [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/FSTS) [![arXiv](https://img.shields.io/badge/Arxiv-2511.12658-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.12658) <br>
 > Zeqin Yu, Haotao Xie, Jian Zhang, Jiangqun Ni, Wenkang Su, Jiwu Huang <br>
 
 > [**Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization [AAAI 2025 Oral]**](https://arxiv.org/abs/2504.05224) <br>
@@ -205,3 +206,4 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   pages={510--519},
   year={2025}
 }
+
