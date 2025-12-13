@@ -21,17 +21,20 @@ Team members: **[Zeqin Yu](https://zeqinyu.github.io/aboutme/)**<sup>1</sup>, Ye
 
 <details open><summary>✨ We also have other Image Forensics projects that may interest you </summary><p>
 
-> [**Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis [NeurIPS 2025]**](https://github.com/ZeqinYu/FSTS) <br>
+> **Toward Real-world Text Image Forgery Localization: Structured and Interpretable Data Synthesis [NeurIPS 2025]** <br>
 > [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/FSTS) [![arXiv](https://img.shields.io/badge/Arxiv-2511.12658-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.12658) <br>
 > Zeqin Yu, Haotao Xie, Jian Zhang, Jiangqun Ni, Wenkang Su, Jiwu Huang <br>
 
-> [**Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization [AAAI 2025 Oral]**](https://arxiv.org/abs/2504.05224) <br>
+> **Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization [AAAI 2025 Oral]** <br>
+> [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/Re-MTKD) [![arXiv](https://img.shields.io/badge/Arxiv-2504.05224-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2504.05224) <br>
 > Zeqin Yu, Jiangqun Ni, Jian Zhang, Haoyi Deng, Yuzhen Lin <br>
 
-> [**Leveraging Diffusion Prior for Image Forgery Detection and Localization [CVPR 2024]**](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_DiffForensics_Leveraging_Diffusion_Prior_to_Image_Forgery_Detection_and_Localization_CVPR_2024_paper.html) <br>
+> **Leveraging Diffusion Prior for Image Forgery Detection and Localization [CVPR 2024]** <br>
+> [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/DiffForensics) [![Paper](https://img.shields.io/badge/Paper-PDF-informational)](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_DiffForensics_Leveraging_Diffusion_Prior_to_Image_Forgery_Detection_and_Localization_CVPR_2024_paper.html) <br>
 > Zeqin Yu, Jiangqun Ni, Yuzhen Lin, Haoyi Deng, Bin Li <br>
 
-> [**Learning to Locate the Text Forgery in Smartphone Screenshots [ICASSP 2023]**](https://ieeexplore.ieee.org/abstract/document/10095070) <br>
+> **Learning to Locate the Text Forgery in Smartphone Screenshots [ICASSP 2023]** <br>
+> [![github](https://img.shields.io/badge/-Github-black?logo=github)](https://github.com/ZeqinYu/STFL-Net) [![Paper](https://img.shields.io/badge/Paper-PDF-informational)](https://ieeexplore.ieee.org/abstract/document/10095070/) [![New Benchmark](https://img.shields.io/badge/New-Benchmark-red)](https://github.com/ZeqinYu/STFL-Net) <br> 
 > Zeqin Yu, Bin Li, Yuzhen Lin, Jinhua Zeng, Jishen Zeng <br>
 
 </p></details>
@@ -206,4 +209,5 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   pages={510--519},
   year={2025}
 }
+
 
