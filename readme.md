@@ -209,6 +209,3 @@ For inquiries or to obtain permission for commercial use, please contact Zeqin Y
   pages={510--519},
   year={2025}
 }
-
-
-
